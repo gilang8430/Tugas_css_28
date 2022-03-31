@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tugas CSS - Niomic</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <style media="screen">
+    body{
+      background:#333333
+    }
+    *{
+      margin: 0 auto;
+    }
+    p{
+      color: white;
+      position:relative;
+      top:10px;
+    }
+    [type="file"]{
+      color:white;
+      position:relative;
+      right:117px;
+    }
+    a{
+      text-decoration:none
+    }
+    [type="checkbox"]{
+      position:relative;
+      right:40px;
+      top:10px;
+    }
+    .text{
+      display:inline-block;
+      position:relative;
+      right:33px;
+    }
+  </style>
+  </head>
+  <body>
+    <div class="text-center">
+      <img src="lampung.jpg" class="rounded-circle" height="200px" width="200px">
+      <div class="form-group col-md-5">
+          <p class="text-start">Nama Lengkap</p>
+          <input type="text" class="form-control" placeholder="Nama Lengkap">
+          <p class="text-start">Alamat</p>
+          <textarea name="name" class="form-control" rows="3" cols="80"></textarea>
+          <p class="text-start">Alamat Email</p>
+          <input type="email" class="form-control disabled" placeholder="Alamat Email(disabled)">
+          <p class="text-start">Password</p>
+          <input type="password" class="form-control" placeholder="Password">
+          <p class="text-start">Scan Ktp</p>
+          <input type="file">
+          <br>
+          <input type="checkbox"><p class="text">Saya dan telah membaca <a href="">aturan</a> serta <a href="">ketentuan</a> yang berlaku </p>
+          <div class="d-grid gap-2">
+            <button class="btn btn-primary" type="button">Submit</button>
+            </div>
+      </div>
+    </div>
+  </body>
+</html>
